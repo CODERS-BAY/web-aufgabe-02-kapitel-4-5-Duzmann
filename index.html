@@ -1,0 +1,198 @@
+<!--
+# Gelerntes anwenden
+
+Im heutigen Unterricht haben wir verschiedene neue Tags kennengelernt.
+
+Erstelle eine oder mehrere HTML-Seiten und verarbeite folgende Tags:
+Wähle ein dir passendes Thema, z.b.: Seite für Schokoladenfabrik, Fitnesshinweise, Tiere, ...
+
+## Ungeordnete Liste
+```html
+<ul> ungeordnete Liste </ul>
+<li> Listenelement </li>
+```
+
+## Geordnete Listen
+```html
+<ol> orderd list </ol>
+<li> Listenelement </li>
+```
+
+## Definitionslisten
+```html
+<dl> als umfassendes Element </dl>
+<dt> umfasst den Begriff der erläutert wird </dt>
+<dd> kennzeichnet die eigentliche Definition </dd>
+```
+
+## Auszeichnungstags
+```html
+<hr> für horizontale Linie, Abgrenzung zu folgenden Inhalt
+<br> für Break
+<h1>…</h1> bis <h6>…</h6> Überschriften verschiedener Ordnung
+<blockquote cite=“https://....“><p> ich bin ein Zitat </p></blockquote>
+<cite> Autorname </cite>
+<pre> Präformatierter Text </pre>
+<details> repräsentiert eine Offenlegungs-Vorrichtung <summary> ermöglicht es, dem details-Element eine Überschrift zu geben </summary> </details>
+<a> Links </a>
+<abbr title=“blablabla“> Abkürzung </abbr> 
+<cite> Verweis auf einen Buchtitle o.ä. </cite>
+<code> Code </code>
+<del> gelöschter Text </del>
+<dfn> Definition </dfn>
+<em> hervorgehobener Text </em>
+<ins> eingefügter Text (Blogartikel ergänzung) </ins>
+<kbd> Computertastatur </kbd>
+<mark> Im Kontext relevanter Text </mark>
+<q> kurzes Zitat </q>
+<s> nicht korrekter Text (durchgestrichen) </s>
+<samp> Beispielausgabe eines Programms </samp>
+<small> kleinerer Text </small>
+<span> allgemeiner Inline-Inhalt (keine sem. Bedeutung) </span>
+<strong> wichtiger Text </strong>
+<sub> tiefergestellter Text </sub>
+<sup> höhergestellter Text </sup>
+<time datetime=“21:30“>abends um halb zehn</time> maschinenlesbarer Zeit-/Datumsangabe
+<u> kennzeichnet falsch geschriebenen Text </u>
+<var> Variable (in techn. Dokumentationen) </var>
+```
+
+## strukturelle Tags
+```html
+<header> ist für den Kopf einer Seite oder eines Bereichs vorgesehen </header>
+<nav> zeichnet die Hauptnavigation(en) aus </nav>
+<main> leitet den Hauptinhalt ein, der auf jeder Unterseite unterschiedlich gefüllt sein kann </main>
+<article> kennzeichnet Inhalte, die auch eigenständig existieren können </article>
+<section> dient zur Auszeichnung von Bereichen </section>
+<footer> bezeichnet einen Fußbereich, Fußbereich der ganzen Seite oder eines Artikels oder ähnlichem</footer>
+<aside> Randbemerkungen, Randnotizen oder Inhalte, die sich auf den Hauptinhalt beziehen aber auch nur am Rande dazugehören </aside>
+<div> hat keine semantische Bedeutung </div>
+```
+
+-->
+
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe 02 - Kapitel 4-5</title>
+    <link rel="stylesheet" href="stil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+
+            <ul> ungeordnete Liste ✔</ul>
+            <li><a href="#Article00">Article 00 </a></li>
+            <li><a href="#Article01">Article 01 </a></li>
+            <li><a href="#Article02">Article 02 </a></li>
+            <li><a href="page2.html">Page 02 </a></li>
+            </ul>
+
+
+
+
+            </section class=bg1>
+        </nav>
+        <h1>Aufgabe 02 - Kapitel 4-5</h1>
+    </header>
+
+
+    <span class="likemain">
+        <section id="Article00">
+            <article class="bg3">
+
+                <ol> orderd list ✔</ol>
+                <li><a href="#Article00">Crticle 00 </a></li>
+                <li><a href="#Article01">Brticle 01 </a></li>
+                <li><a href="#Article02">Article 02 </a></li>
+                <li><a href="page2.html">Page 02 </a></li>
+                </ol><br>
+                <br>
+                <h1>This is h1 heading ✔</h1>
+                <h2>This is h2 heading ✔</h2>
+                <h3>This is h3 heading ✔</h3>
+                <h4>This is h4 heading ✔</h4>
+                <h5>This is h5 heading ✔</h5>
+                <h5>This is h6 heading ✔</h6>
+                    <br>
+                   <hr> für horizontale Linie, Abgrenzung zu folgenden Inhalt ✔
+                    <br> für Break ✔
+                    Blabla Bla.. <blockquote cite=“https://....“> ich bin ein Zitat </blockquote> ✔ <br>
+                    <cite> Autorname </cite> ✔ <br>
+                    Blabla Bla.. <pre> Präformatierter Text </pre> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <details> repräsentiert eine Offenlegungs-Vorrichtung <summary> ermöglicht es, dem details-Element eine Überschrift zu geben </summary></details> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <abbr title=“blablabla“> Abkürzung </abbr> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <cite> Verweis auf einen Buchtitle o.ä. </cite> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <code> Code </code> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <del> gelöschter Text </del> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <dfn> Definition </dfn> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <em> hervorgehobener Text </em> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <ins> eingefügter Text (Blogartikel ergänzung) </ins> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <kbd> Computertastatur </kbd> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <mark> Im Kontext relevanter Text </mark> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <q> kurzes Zitat </q> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <s> nicht korrekter Text (durchgestrichen) </s> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <samp> Beispielausgabe eines Programms </samp> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <sup> höhergestellter Text Blabla Bla..  </sup> ✔ <br>
+                    Blabla Bla..  <time datetime=“21:30“>abends um halb zehn</time> maschinenlesbarer Zeit-/Datumsangabe Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <u> kennzeichnet falsch geschriebenen Text </u> Blabla Bla..  ✔ <br>
+                    Blabla Bla..  <var> Variable (in techn. Dokumentationen) </var> Blabla Bla..  ✔ <br>
+                    </p>
+            </article>
+        </section>
+    </span>
+
+    <main>
+
+
+
+        <section id="Article01">
+            <article class="bg1">
+                <h2 class="stroked02">This is an article.</h2>
+
+
+                <p>Articles have some Paragraphs - ths is mine: Lorem ipsum dolor sit amet, consectetuer adipiscing
+                    elit. Aenean
+                    commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                    montes,
+                    nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+                    massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                    justo,
+                    rhoncus
+                    ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
+                    tincidunt. Cras
+                    dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
+            </article>
+
+        </section>
+        <section id="Article02">
+            <article class="bg2">
+                <h2 class="stroked04">This is also an article..</h2>
+                <p>Try The Navigation Menu on top! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                    commodo ligula
+                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mus.
+                    Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                    enim. Donec pede
+                    justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                    venenatis
+                    vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                    Vivamus
+                    elementum
+                    semper nisi. Aenean vulputate eleifend tellus. </p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        (C) Karim 2020
+    </footer>
+</body>
+
+</html>
